@@ -6,11 +6,14 @@
 
         </title>
         <link rel="icon" type="image/x-icon" href="assets/Img/logo.png">
+
+        <link rel="stylesheet" href="assets/css/Mystyle.css"
+
     </head>
     <body>
-        <section id="head1">
+        <section id="head1" class="col-red">
             <a href="#head2"> Go to head 2</a>
-            <h1> Heading 1</h1>
+            <h1 style="color:brown"> Heading 1</h1>
             <h2> Heading 2</h2>
             <h3> Heading 3</h3>
             <h4> Heading 4</h4>
@@ -27,11 +30,72 @@
                 <hr>
             </p>
             <a href="https://mcgill.ca" target="_blank" title="Click here to Mcgill.">LINK HERE</a>
-            <img src="assets/Img/fish.jpeg">
-        </section>
+            <img src="assets/Img/fish.jpeg" alt="C'est un poisson.">
+            <video autoplay muted controls><source src="https://pqina.nl/media/sample-mp4-file.mp4" type="video/mp4"></video>
+            
+            <ul>
+                <!--This is a comment. Il y a un commentaire ici.-->
+                Choisissez votre repas.
+                <li>Poisson</li>
+                <li>Viande</li>
+                <li>Legume</li>
+            </ul>
+
+            <dl>
+                <dt>Poisson</dt>
+                    <dd>Poisson Italien</dd>
+                <dt>Viande</dt>
+                    <dd>Viande Australien</dd>
+                <dt>Legume</dt>   
+                    <dd>Legume Asiatique</dd>     
+            </dl>
+
+            <table border="1px">
+                <tr><!--row 1-->
+                    <th rowspan="2">Origin</th>
+                    <th>Type</th>
+                    <th>Matière</th>
+                </tr>
+                <tr><!--row 1-->
+                    <th>Poisson</th>
+                    <th>Viande</th>
+
+                </tr>
+                <tr><!--row 2-->
+                    <td colspan="2">Italien ou Australien</td>
+                    
+                    <td>Asiatique</td>
+                </tr>
+            </table>
+            <p></p>
+            <form method="GET" action="#" autocomplete="on">
+                <label>Prénom</label>
+                <input name="Pnom" value="N/A" required>
+                <input type="radio">
+                <input type="color">
+                <input type="range">
+                <input type="email">
+                <input type="submit" value="Soumettre">
+            </form>
+            <hr>
+            <p></p>
+
+            <form method="Post" action="" target="_blank" autocomplete="on">
+
+            </form>
+            
+            </section>
 
         <section id="head2">
             <a href="#head1"> Go to head 1</a>
+            <iframe src="assets/Img/fish.jpeg" title="C'est encore le même poisson."></iframe>
+            
         </section>
-    </body>
+
+
+
+        <p><a href="www.mcgill.ca">Voici le Site de Web de McGill</a></p>
+
+        <p><b href="www.mcgill.ca">Voici le Site de Web de McGill</b></p>
+            </body>
 </html>

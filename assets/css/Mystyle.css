@@ -1,0 +1,21 @@
+#head2{
+    background-color: aqua;
+
+}
+
+.col-red {
+    background-color: greenyellow;
+}
+
+p a {
+    background-color: dodgerblue;
+}
+
+p b {
+    background-color: brown;
+}
+
+body{
+    background-image: url("../Img/Saving.jpeg");
+    background-attachment: fixed;
+}
